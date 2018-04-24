@@ -1,11 +1,11 @@
 public class PartTimeEmp extends Employee {
 
-	private int nbWorkHours;
+	private int nbWorkHours; // number of working hours
 	private int rate;
 
-	public PartTimeEmp(String n, int id, int nbh, int rate) {
-		super(n, id);
-		this.nbWorkHours = nbh;
+	public PartTimeEmp(String name, int id, int nbWorkHours, int rate) {
+		super(name, id);
+		this.nbWorkHours = nbWorkingHours;
 		this.rate = rate;
 	}
 
